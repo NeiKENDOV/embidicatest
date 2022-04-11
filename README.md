@@ -27,6 +27,7 @@ post  /add  добавить новое авто
     
 delete    /delete  удалить авто по id
     params:
+    
         id - id авто
         
         
