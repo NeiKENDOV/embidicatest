@@ -87,7 +87,7 @@ public class CarServiceImpl implements CarService {
     }
 
     @Override
-    @CacheEvict("users")
+    @CacheEvict("cars")
     public ResponseEntity<?> deleteCar(Long id) {
         Car car = carRepo.findCarById(id);
         if (car != null) {
