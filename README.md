@@ -25,7 +25,7 @@ post  /add  добавить новое авто
           "registerSign": String,
           "carModel": String,
           "color": String,
-          "yearOfIssue" " int
+          "yearOfIssue": int
         }
     
 delete    /delete  удалить авто по id
